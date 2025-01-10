@@ -1,0 +1,305 @@
+const data =  {         
+        "selection1": [
+            {
+                "profile picutres": "bg.jpg",
+                "name": "JPMorganChase",
+                "url": "index.html",
+                "selection2": "United States",
+                "selection2_url": "https://www.forbes.com/companies/jpmorganchase/?list=global2000"
+            },
+            {
+                "name": "Berkshire Hathaway",
+                "url": "https://www.forbes.com/companies/berkshire-hathaway/?list=global2000",
+                "selection2": "United States",
+                "selection2_url": "https://www.forbes.com/companies/berkshire-hathaway/?list=global2000"
+                },
+            {
+            "name": "Saudi Arabian Oil Company (Saudi Aramco)",
+            "url": "https://www.forbes.com/companies/saudi-arabian-oil-company-saudi-aramco/?list=global2000",
+            "selection2": "Saudi Arabia",
+            "selection2_url": "https://www.forbes.com/companies/saudi-arabian-oil-company-saudi-aramco/?list=global2000"
+            },
+            {
+            "name": "ICBC",
+            "url": "https://www.forbes.com/companies/icbc/?list=global2000",
+            "selection2": "China",
+            "selection2_url": "https://www.forbes.com/companies/icbc/?list=global2000"
+            },
+            {
+            "name": "Bank of America",
+            "url": "https://www.forbes.com/companies/bank-of-america/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/bank-of-america/?list=global2000"
+            },
+            {
+            "name": "Amazon",
+            "url": "https://www.forbes.com/companies/amazon/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/amazon/?list=global2000"
+            },
+            {
+            "name": "China Construction Bank",
+            "url": "https://www.forbes.com/companies/china-construction-bank/?list=global2000",
+            "selection2": "China",
+            "selection2_url": "https://www.forbes.com/companies/china-construction-bank/?list=global2000"
+            },
+            {
+            "name": "Microsoft",
+            "url": "https://www.forbes.com/companies/microsoft/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/microsoft/?list=global2000"
+            },
+            {
+            "name": "Agricultural Bank of China",
+            "url": "https://www.forbes.com/companies/agricultural-bank-of-china/?list=global2000",
+            "selection2": "China",
+            "selection2_url": "https://www.forbes.com/companies/agricultural-bank-of-china/?list=global2000"
+            },
+            {
+            "name": "Alphabet",
+            "url": "https://www.forbes.com/companies/alphabet/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/alphabet/?list=global2000"
+            },
+            {
+            "name": "Toyota Motor",
+            "url": "https://www.forbes.com/companies/toyota-motor/?list=global2000",
+            "selection2": "Japan",
+            "selection2_url": "https://www.forbes.com/companies/toyota-motor/?list=global2000"
+            },
+            {
+            "name": "Apple",
+            "url": "https://www.forbes.com/companies/apple/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/apple/?list=global2000"
+            },
+            {
+            "name": "Bank of China",
+            "url": "https://www.forbes.com/companies/bank-of-china/?list=global2000",
+            "selection2": "China",
+            "selection2_url": "https://www.forbes.com/companies/bank-of-china/?list=global2000"
+            },
+            {
+            "name": "ExxonMobil",
+            "url": "https://www.forbes.com/companies/exxon-mobil/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/exxon-mobil/?list=global2000"
+            },
+            {
+            "name": "HSBC Holdings",
+            "url": "https://www.forbes.com/companies/hsbc-holdings/?list=global2000",
+            "selection2": "United Kingdom",
+            "selection2_url": "https://www.forbes.com/companies/hsbc-holdings/?list=global2000"
+            },
+            {
+            "name": "Wells Fargo",
+            "url": "https://www.forbes.com/companies/wells-fargo/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/wells-fargo/?list=global2000"
+            },
+            {
+            "name": "Shell Plc",
+            "url": "https://www.forbes.com/companies/shell/?list=global2000",
+            "selection2": "United Kingdom",
+            "selection2_url": "https://www.forbes.com/companies/shell/?list=global2000"
+            },
+            {
+            "name": "PetroChina",
+            "url": "https://www.forbes.com/companies/petrochina/?list=global2000",
+            "selection2": "China",
+            "selection2_url": "https://www.forbes.com/companies/petrochina/?list=global2000"
+            },
+            {
+            "name": "UnitedHealth Group",
+            "url": "https://www.forbes.com/companies/unitedhealth-group/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/unitedhealth-group/?list=global2000"
+            },
+            {
+            "name": "Walmart",
+            "url": "https://www.forbes.com/companies/walmart/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/walmart/?list=global2000"
+            },
+            {
+            "name": "Samsung Electronics",
+            "url": "https://www.forbes.com/companies/samsung-electronics/?list=global2000",
+            "selection2": "South Korea",
+            "selection2_url": "https://www.forbes.com/companies/samsung-electronics/?list=global2000"
+            },
+            {
+            "name": "Chevron",
+            "url": "https://www.forbes.com/companies/chevron/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/chevron/?list=global2000"
+            },
+            {
+            "name": "Goldman Sachs Group",
+            "url": "https://www.forbes.com/companies/goldman-sachs-group/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/goldman-sachs-group/?list=global2000"
+            },
+            {
+            "name": "Meta Platforms",
+            "url": "https://www.forbes.com/companies/meta-platforms/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/meta-platforms/?list=global2000"
+            },
+            {
+            "name": "TotalEnergies",
+            "url": "https://www.forbes.com/companies/totalenergies/?list=global2000",
+            "selection2": "France",
+            "selection2_url": "https://www.forbes.com/companies/totalenergies/?list=global2000"
+            },
+            {
+            "name": "Morgan Stanley",
+            "url": "https://www.forbes.com/companies/morgan-stanley/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/morgan-stanley/?list=global2000"
+            },
+            {
+            "name": "RBC",
+            "url": "https://www.forbes.com/companies/rbc/?list=global2000",
+            "selection2": "Canada",
+            "selection2_url": "https://www.forbes.com/companies/rbc/?list=global2000"
+            },
+            {
+            "name": "Citigroup",
+            "url": "https://www.forbes.com/companies/citigroup/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/citigroup/?list=global2000"
+            },
+            {
+            "name": "Ping An Insurance Group",
+            "url": "https://www.forbes.com/companies/ping-an-insurance/?list=global2000",
+            "selection2": "China",
+            "selection2_url": "https://www.forbes.com/companies/ping-an-insurance/?list=global2000"
+            },
+            {
+            "name": "China Mobile",
+            "url": "https://www.forbes.com/companies/china-mobile/?list=global2000",
+            "selection2": "Hong Kong",
+            "selection2_url": "https://www.forbes.com/companies/china-mobile/?list=global2000"
+            },
+            {
+            "name": "Allianz",
+            "url": "https://www.forbes.com/companies/allianz/?list=global2000",
+            "selection2": "Germany",
+            "selection2_url": "https://www.forbes.com/companies/allianz/?list=global2000"
+            },
+            {
+            "name": "BNP Paribas",
+            "url": "https://www.forbes.com/companies/bnp-paribas/?list=global2000",
+            "selection2": "France",
+            "selection2_url": "https://www.forbes.com/companies/bnp-paribas/?list=global2000"
+            },
+            {
+            "name": "Verizon Communications",
+            "url": "https://www.forbes.com/companies/verizon-communications/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/verizon-communications/?list=global2000"
+            },
+            {
+            "name": "China Merchants Bank",
+            "url": "https://www.forbes.com/companies/china-merchants-bank/?list=global2000",
+            "selection2": "China",
+            "selection2_url": "https://www.forbes.com/companies/china-merchants-bank/?list=global2000"
+            },
+            {
+            "name": "UBS",
+            "url": "https://www.forbes.com/companies/ubs/?list=global2000",
+            "selection2": "Switzerland",
+            "selection2_url": "https://www.forbes.com/companies/ubs/?list=global2000"
+            },
+            {
+            "name": "Santander",
+            "url": "https://www.forbes.com/companies/santander/?list=global2000",
+            "selection2": "Spain",
+            "selection2_url": "https://www.forbes.com/companies/santander/?list=global2000"
+            },
+            {
+            "name": "AT&T",
+            "url": "https://www.forbes.com/companies/att/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/att/?list=global2000"
+            },
+            {
+            "name": "Tencent Holdings",
+            "url": "https://www.forbes.com/companies/tencent-holdings/?list=global2000",
+            "selection2": "China",
+            "selection2_url": "https://www.forbes.com/companies/tencent-holdings/?list=global2000"
+            },
+            {
+            "name": "Mitsubishi UFJ Financial",
+            "url": "https://www.forbes.com/companies/mitsubishi-ufj-financial/?list=global2000",
+            "selection2": "Japan",
+            "selection2_url": "https://www.forbes.com/companies/mitsubishi-ufj-financial/?list=global2000"
+            },
+            {
+            "name": "Comcast",
+            "url": "https://www.forbes.com/companies/comcast/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/comcast/?list=global2000"
+            },
+            {
+            "name": "Alibaba Group",
+            "url": "https://www.forbes.com/companies/alibaba-group/?list=global2000",
+            "selection2": "China",
+            "selection2_url": "https://www.forbes.com/companies/alibaba-group/?list=global2000"
+            },
+            {
+            "name": "Sinopec",
+            "url": "https://www.forbes.com/companies/sinopec/?list=global2000",
+            "selection2": "China",
+            "selection2_url": "https://www.forbes.com/companies/sinopec/?list=global2000"
+            },
+            {
+            "name": "Volkswagen Group",
+            "url": "https://www.forbes.com/companies/volkswagen-group/?list=global2000",
+            "selection2": "Germany",
+            "selection2_url": "https://www.forbes.com/companies/volkswagen-group/?list=global2000"
+            },
+            {
+            "name": "TD Bank Group",
+            "url": "https://www.forbes.com/companies/td-bank-group/?list=global2000",
+            "selection2": "Canada",
+            "selection2_url": "https://www.forbes.com/companies/td-bank-group/?list=global2000"
+            },
+            {
+            "name": "Johnson & Johnson",
+            "url": "https://www.forbes.com/companies/johnson-johnson/?list=global2000",
+            "selection2": "United States",
+            "selection2_url": "https://www.forbes.com/companies/johnson-johnson/?list=global2000"
+            },
+            {
+            "name": "Taiwan Semiconductor",
+            "url": "https://www.forbes.com/companies/taiwan-semiconductor/?list=global2000",
+            "selection2": "Taiwan",
+            "selection2_url": "https://www.forbes.com/companies/taiwan-semiconductor/?list=global2000"
+            },
+            {
+            "name": "BP",
+            "url": "https://www.forbes.com/companies/bp/?list=global2000",
+            "selection2": "United Kingdom",
+            "selection2_url": "https://www.forbes.com/companies/bp/?list=global2000"
+            },
+            {
+            "name": "LVMH Moët Hennessy Louis Vuitton",
+            "url": "https://www.forbes.com/companies/lvmh-moet-hennessy-louis-vuitton/?list=global2000",
+            "selection2": "France",
+            "selection2_url": "https://www.forbes.com/companies/lvmh-moet-hennessy-louis-vuitton/?list=global2000"
+            },
+            {
+            "name": "Reliance Industries",
+            "url": "https://www.forbes.com/companies/reliance-industries/?list=global2000",
+            "selection2": "India",
+            "selection2_url": "https://www.forbes.com/companies/reliance-industries/?list=global2000"
+            },
+            {
+            "name": "Nestle",
+            "url": "https://www.forbes.com/companies/nestle/?list=global2000",
+            "selection2": "Switzerland",
+            "selection2_url": "https://www.forbes.com/companies/nestle/?list=global2000"
+            }
+            ]
+            };
